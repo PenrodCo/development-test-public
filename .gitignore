@@ -1,0 +1,86 @@
+config/
+**/dist/
+**/*.log
+**/*.rej
+resource-bundles/
+
+pmd_report.html
+
+####################
+# Dependencies
+###################
+
+node_modules/
+bower_components/
+
+
+####################
+# Sublime
+###################
+
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+*.sublime-settings
+sftp-config.json
+
+###################
+# VS Code
+##################
+.vscode/
+
+###################
+# JetBrains IDEs
+##################
+
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+.idea/
+*.iml
+IlluminatedCloud/
+
+
+####################
+### Vim
+###################
+
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+
+####################
+### OSX
+###################
+
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
