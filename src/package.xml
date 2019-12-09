@@ -6,7 +6,6 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Account_Record_Page</members>
         <members>LightningSalesConsole_UtilityBar</members>
         <members>LightningService_UtilityBar</members>
         <members>Piece_Record_Page</members>
