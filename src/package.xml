@@ -12,6 +12,7 @@
         <members>Piece_Record_Page</members>
         <members>Sales_Home_Page</members>
         <members>Vendor_Record_Page</members>
+        <name>FlexiPage</name>
     </types>
     <types>
         <members>pieceDetails</members>
