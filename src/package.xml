@@ -6,6 +6,14 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Account_Record_Page</members>
+        <members>LightningSalesConsole_UtilityBar</members>
+        <members>LightningService_UtilityBar</members>
+        <members>Piece_Record_Page</members>
+        <members>Sales_Home_Page</members>
+        <members>Vendor_Record_Page</members>
+    </types>
+    <types>
         <members>pieceDetails</members>
         <members>recentlyAddedPieces</members>
         <members>topPieces</members>
