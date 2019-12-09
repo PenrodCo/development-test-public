@@ -1,0 +1,12 @@
+<template>
+    <lightning-card>
+        <h3 slot="title">
+            <lightning-icon icon-name="standard:insights" size="small"></lightning-icon>
+            &nbsp; <b>Pieces for Sale</b>
+        </h3>
+        <c-top-pieces></c-top-pieces>
+        <c-recently-added-pieces 
+            record-id={recordId}
+        > </c-recently-added-pieces>
+    </lightning-card> 
+</template>

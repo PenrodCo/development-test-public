@@ -1,0 +1,14 @@
+.piece-image {
+    max-height: 200px;
+}
+label {
+    color: rgba(27, 82, 151, 1);
+    font-weight: 600;
+}
+.marker {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.green {
+    color: green;
+}

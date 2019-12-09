@@ -1,0 +1,14 @@
+<template>
+    <h2 class="slds-text-heading_small slds-m-horizontal_medium">
+        Top Pieces
+    </h2>
+    <template iterator:piece={topPieces}>
+        <p key={piece.value.id}>
+            {piece.value.name}
+        </p>
+        <c-piece-details
+            key={piece.value.id}
+            piece={piece.value}
+        ></c-piece-details>
+    </template>   
+</template>

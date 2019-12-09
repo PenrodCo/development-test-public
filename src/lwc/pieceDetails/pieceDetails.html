@@ -1,0 +1,30 @@
+<template>
+    <div class="slds-grid slds-wrap slds-p-bottom_medium slds-m-horizontal_medium">
+        <div class="slds-col slds-size_1-of-2">
+            <img src={imageUrl} alt="image" class="piece-image"/> 
+        </div>
+        <div class="slds-col slds-size_1-of-2">
+            <div class="slds-border_bottom">
+                <label>Name</label>
+                <p>{piece.Name}</p>
+            </div>
+            <div class="slds-border_bottom">
+                <label>Artist</label>
+                <p>{piece.Artist__r.Name}</p>
+            </div>
+            <div class="slds-border_bottom">
+                <label>Top Bid</label>
+                <p><lightning-formatted-number value={piece.Top_Bid__c} format-style="currency" currency-code="USD"></lightning-formatted-number></p>
+            </div>
+            <div class="slds-border_bottom">
+                <label>Above Asking Price</label>
+                <p>
+                    <template if:true={over30}>
+                        <span class="marker green">&bull;</span>
+                    </template>
+                    {aboveAsking}%
+                </p>
+            </div>
+        </div>
+    </div>      
+</template>
