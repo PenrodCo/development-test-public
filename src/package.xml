@@ -12,10 +12,6 @@
         <members>vendorDashboard</members>
         <name>LightningComponentBundle</name>
      </types>
-     <types>
-        <members>BidTrigger</members>
-        <name>ApexTrigger</name>
-    </types>
     <types>
         <members>Account.Compact_Layout</members>
         <name>CompactLayout</name>
